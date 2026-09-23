@@ -18,9 +18,12 @@ b.dbj_red { background:#f4a6a6; } b.dbj_yellow { background:#f7e27a; } b.dbj_gre
 
 | UID_TIMESTAMP | status | comments |
 |---|---|---|
-| 011-2026-SEP-23 | <b class="dbj_red">tbd</b> | Git commit and push; nothing committed yet. CWR reminds DBJ |
-| 010-2026-SEP-23 | <b class="dbj_red">tbd</b> | Local check with `hugo server --minify` at localhost:1313. CWR cannot run it on ws01dbj until the Windows update fix is installed. CWR reminds DBJ |
-| 013-2026-SEP-23 | <b class="dbj_yellow">doing</b> | Status colours: `<style>` block added at the top of this file (VS Code preview cannot reach `.vscode/` CSS from here). DBJ to confirm colours show |
+| 011-2026-SEP-23 | <b class="dbj_green">done</b> | Git commit and push, done by DBJ |
+| 013-2026-SEP-23 | <b class="dbj_green">done</b> | Status colours: `<style>` block added at the top of this file (VS Code preview cannot reach `.vscode/` CSS from here). DBJ confirmed colours show |
+| 017-2026-SEP-23 | <b class="dbj_green">done</b> | Service cards showed broken image placeholders. Override [layouts/partials/sections/projects.html](../layouts/partials/sections/projects.html) skips the image when a card has none. Checked on localhost after restart: four cards, no placeholders, Recent Posts gone |
+| 016-2026-SEP-23 | <b class="dbj_green">done</b> | Recent Posts off the home page (`recentPosts.enable = false`). Logo working posts moved by DBJ from `content/posts/` to `.ideas/` (unpublished, source files kept) |
+| 015-2026-SEP-23 | <b class="dbj_green">done</b> | Post images broken in home page Recent Posts (relative paths). Fixed with absolute paths in [logoptions](../content/posts/logoptions/index.md) and [logo-subversion-10](../content/posts/logo-subversion-10/index.md); checked on localhost: all images load |
+| 010-2026-SEP-23 | <b class="dbj_green">done</b> | Local check: DBJ ran `hugo server --minify` (Hugo 0.157.0 extended, 15 pages, clean); CWR read the page in the browser pane: hero, About, four services and Contact render; all 11 links correct |
 | 009-2026-SEP-23 | <b class="dbj_green">done</b> | ASH and ZED not added (DBJ ruling). Roster stays ALL, human:DBJ, RROI_SITE, CWR |
 | 008-2026-SEP-23 | <b class="dbj_green">done</b> | 3QF line added to About: scalability, resilience, compliance → [dbj.org/3qf-the-key-to-roi](https://dbj.org/3qf-the-key-to-roi/) |
 | 007-2026-SEP-23 | <b class="dbj_green">done</b> | About in plain words, one link per method term (Taxonomy, operating model, maturity model, the wheel). "Deterministic Execution" folded into "Business declares, technology implements" |
