@@ -1,58 +1,95 @@
 baseURL = 'https://resilientroi.com/'
 languageCode = 'en-us'
 title = 'Resilient ROI'
-theme = 'PaperMod'
+theme = 'hugo-profile'
 copyright = '&copy; Resilient ROI Ltd. | London, UK'
 
-[params]
-  author = 'Dusan B. Jovanovic'
-  description = ''
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = false
-  ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
-  ShowToc = false
-  comments = false
-  TocOpen = false
-  defaultTheme = 'auto'
-
-[params.assets]
-  favicon = '/favicon/favicon.ico'
-  favicon16x16 = '/favicon/favicon-16x16.png'
-  favicon32x32 = '/favicon/favicon-32x32.png'
-  apple_touch_icon = '/favicon/apple-touch-icon.png'
-  safari_pinned_tab = '/favicon/safari-pinned-tab.svg'
-  theme_color = '#23506f'
-  msapplication_TileColor = '#23506f'
-
-[params.profileMode]
-  enabled = false
-
-# Comments via Giscus — set comments = true above and fill these in.
-# [params.giscus]
-#   repo = "RESILIENT-ROI/GH-SITE"
-#   repoId = ""
-#   category = "General"
-#   categoryId = ""
-#   mapping = "pathname"
-#   strict = "0"
-#   reactionsEnabled = "1"
-#   emitMetadata = "0"
-#   inputPosition = "top"
-#   theme = "preferred_color_scheme"
-#   lang = "en"
-#   loading = "lazy"
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  page = ['HTML', 'RSS']
 
 [markup.goldmark.renderer]
   unsafe = true
 
-[outputs]
-  home = ['HTML']
+[params]
+  title = 'Resilient ROI'
+  description = 'Veteran software architecture, governed by the DBJ Method.'
+  favicon = '/favicon/favicon.ico'
+  useBootstrapCDN = false
+  animate = true
 
-# Add pages as content/<name>.md, then list them here.
-[menu]
-  [[menu.main]]
-    name = "Legacy Tech"
-    url = "/legacy-tech-is-in-a-pit-crew/"
-    weight = 10
+  [params.font]
+    fontSize = '1rem'
+    fontWeight = 400
+    lineHeight = 1.5
+    textAlign = 'left'
+
+  [params.navbar]
+    align = 'ms-auto'
+    brandName = 'Resilient ROI'
+    disableSearch = true
+    enableSeparator = false
+    [params.navbar.stickyNavBar]
+      enable = true
+      showOnScrollUp = true
+    [params.navbar.menus]
+      disableAbout = false
+      disableExperience = true
+      disableEducation = true
+      disableProjects = false
+      disableAchievements = true
+      disableContact = false
+
+  [params.hero]
+    enable = true
+    intro = 'Governance over Chaos: Engineered at AI Speed'
+    title = 'Resilient ROI'
+    subtitle = 'Taking Valuable Legacy Knowledge Into AI-Enabled Products.'
+    content = 'Resilient ROI is an AI Speed Specialists Workshop. We replace unmanaged technical debt with deterministic, AI-centric systems — governed strictly by the DBJ Method.'
+    [params.hero.button]
+      enable = true
+      name = 'Explore method.dbj.org'
+      url = 'https://method.dbj.org/'
+      newPage = true
+
+  [params.about]
+    enable = true
+    title = 'The DBJ Method'
+    content = """
+In an era where AI tools generate unstructured code at unprecedented velocity, product drift is the greatest threat to enterprise. We rely completely on [method.dbj.org](https://method.dbj.org/) to ensure safety, predictability, and feasible rigor.
+
+- **Deterministic Execution** — elimination of speculative complexity; every component maps back to business value and strict structural rules.
+- **Human-Led Rigor** — AI accelerates generation, but senior human engineering judgment dictates structural integrity, data flow, and boundaries.
+"""
+    [params.about.skills]
+      enable = false
+
+  [params.projects]
+    enable = true
+    title = 'Architectural Services'
+    [[params.projects.items]]
+      title = 'Legacy Org Modernization'
+      content = 'Convert tangled legacy and deep technical debt into streamlined, AI-enabled streams of high-performance software products. Legacy extraction strategy, business domain re-mapping, AI integration pipelines.'
+    [[params.projects.items]]
+      title = 'Manageable AI-Speed Architecture'
+      content = 'Establish rigorous guardrails so your teams can leverage AI code generation safely without collapsing into architectural chaos. DBJ Method implementation, codebase governance setup, scalability & safety reviews.'
+    [[params.projects.items]]
+      title = 'Deep Architectural Audits'
+      content = 'Exhaustive structural inspections of existing codebases, performance bottlenecks, and structural debt with concrete remediation roadmaps.'
+
+  [params.contact]
+    enable = true
+    title = 'Initiate Technical Audit or Consultation'
+    content = 'Ready to transform legacy debt or stabilize your AI product velocity? Send us a direct inquiry. We respond personally within 24 hours.'
+    btnName = 'Email Us'
+    btnLink = 'mailto:architects@resilientroi.com'
+
+  [params.footer]
+    [params.footer.recentPosts]
+      enable = true
+      path = 'posts'
+      count = 3
+      title = 'Recent Posts'
+
+  [params.terms]
+    copyright = 'All rights reserved. Governed by the DBJ Method.'

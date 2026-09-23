@@ -3,6 +3,7 @@ title: "Logo Options"
 date: 2026-08-24
 description: "Working page for logo candidates."
 version: 0.1
+tags: []
 ---
 
 Picked: **Subvariant 10**, redrawn as vector.
