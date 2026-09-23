@@ -13,7 +13,7 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
 
 [params]
   title = 'Resilient ROI'
-  description = 'Safety at AI Speed, governed by the DBJ Method.'
+  description = 'Safe Driving at AI Speeds.'
   favicon = '/favicon/favicon.ico'
   useBootstrapCDN = false
   animate = true
@@ -34,7 +34,7 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
       enable = true
       showOnScrollUp = true
     [params.navbar.menus]
-      disableAbout = false
+      disableAbout = true
       disableExperience = true
       disableEducation = true
       disableProjects = false
@@ -45,20 +45,20 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
     enable = true
     intro = 'Governance over Chaos: Products at AI Speed'
     title = 'Resilient ROI'
-    subtitle = 'Taking Valuable Legacy Knowledge Into AI-Enabled Products.'
+    subtitle = 'Safety at AI Speeds'
     content = '''
-Resilient ROI Ltd runs architecture and delivery projects. Every project is governed by the DBJ Method.\
+We train the whole organisation to perform resiliently in the AI storm.\
 Work is measured by what it returns. AI or no AI.
 '''
-    image = '/logo-rroi-256.png'
+    image = '/rroi-logo-version.png'
     [params.hero.button]
       enable = true
-      name = 'Explore method.dbj.org'
-      url = 'https://method.dbj.org/'
-      newPage = true
+      name = 'What We Do'
+      url = '#projects'
+      newPage = false
 
   [params.about]
-    enable = true
+    enable = false
     title = 'The DBJ Method'
     content = """
 Every Resilient ROI project is run on the DBJ Method ([method.dbj.org](https://method.dbj.org/)). No project runs outside it.
@@ -77,26 +77,26 @@ Every Resilient ROI project is run on the DBJ Method ([method.dbj.org](https://m
     enable = true
     title = 'What We Do'
     [[params.projects.items]]
-      title = 'Organisation Enablement'
-      content = 'We train your organisation to work as one crew, boarding the ship safely and following one operating model. The result is a steady stream of AI-enabled products that are resilient, safe and compliant.'
+      title = 'Crew  Enablement'
+      content = 'We train your organisation to work as one crew, boarding the ship safely and following simple operating model. The result is a steady stream of AI-enabled products or services, that are resilient, safe and compliant.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/cmm/index.html'
     [[params.projects.items]]
       title = 'Knowledge Preservation'
-      content = 'Your old systems hold years of business knowledge. We take it out and keep it safe before anything is replaced, so modernisation does not throw it away with the old code.'
+      content = 'Every mature organization, reaches the point when business value it encapsulates is more valuable than software it has built or uses. Your old systems hold years of business knowledge. We enable your teams to take it out and keep it safe before anything is replaced, so modernisation does not throw it away with the old code.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://iceberg.dbj.org/kb/technical-debt/'
     [[params.projects.items]]
-      title = 'Method Chapters'
-      content = 'For architecture practices with a method of their own. Take only the parts of the DBJ Method you need, one chapter at a time, alongside what you already do.'
+      title = 'Method building blocks'
+      content = 'For architecture practices developing a method of their own. Take only the parts of the DBJ Method you need, one chapter at a time, alongside with what you already do. We deliberately encapsulated TOGAF so that any specific role distant to architecture has benefits of the encapsulation.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/'
     [[params.projects.items]]
       title = 'Maturity Assessment'
-      content = 'Where your organisation stands today, and what it takes to reach the level where AI-enabled product work can safely start. Output: findings and a roadmap.'
+      content = 'Organization KPI is the sum of capability and maturity of its people. That is the key to enter the new operating model and mitigate the risks of the presence of the AI storm. That coldly decides where your organisation stands today, and what it takes to reach the level where AI-enabled product work can safely start. Output: findings and a roadmap.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/cmm/index.html'

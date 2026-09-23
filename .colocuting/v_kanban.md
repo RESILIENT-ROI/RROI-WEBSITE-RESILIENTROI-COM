@@ -18,6 +18,7 @@ b.dbj_red { background:#f4a6a6; } b.dbj_yellow { background:#f7e27a; } b.dbj_gre
 
 | UID_TIMESTAMP | status | comments |
 |---|---|---|
+| 018-2026-SEP-23 | <b class="dbj_yellow">doing</b> | Services first, DBJ Method out of the front (DBJ ruling). [hugo.toml](../hugo.toml): About section and its nav link off (it repeated the services); hero sentence on the method removed; hero button now "What We Do" → #projects; site description is "Safety at AI Speed." The method stays in the footer terms and behind the services' "Read more" links. Dropped with About: the 3QF line and "Human-led". DBJ to check on localhost |
 | 011-2026-SEP-23 | <b class="dbj_green">done</b> | Git commit and push, done by DBJ |
 | 013-2026-SEP-23 | <b class="dbj_green">done</b> | Status colours: `<style>` block added at the top of this file (VS Code preview cannot reach `.vscode/` CSS from here). DBJ confirmed colours show |
 | 017-2026-SEP-23 | <b class="dbj_green">done</b> | Service cards showed broken image placeholders. Override [layouts/partials/sections/projects.html](../layouts/partials/sections/projects.html) skips the image when a card has none. Checked on localhost after restart: four cards, no placeholders, Recent Posts gone |
