@@ -8,7 +8,7 @@ tags: []
 
 Picked: **Subvariant 10**
 
-![sv10logo](logo-subversion-10.png)
+![sv10logo](/posts/logo-subversion-10/logo-subversion-10.png)
 
 Inner frame is 512 x 512.
 

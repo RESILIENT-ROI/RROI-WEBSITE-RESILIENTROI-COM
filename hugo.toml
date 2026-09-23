@@ -110,7 +110,7 @@ Every Resilient ROI project is run on the DBJ Method ([method.dbj.org](https://m
 
   [params.footer]
     [params.footer.recentPosts]
-      enable = true
+      enable = false
       path = 'posts'
       count = 3
       title = 'Recent Posts'

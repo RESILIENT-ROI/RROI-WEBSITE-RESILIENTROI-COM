@@ -8,9 +8,9 @@ tags: []
 
 Picked: **Subvariant 10**, redrawn as vector.
 
-![subvariant 10](subvariant10.svg)
+![subvariant 10](/posts/logoptions/subvariant10.svg)
 
 Files here: `subvariant10.svg` (full logo), `mark.svg` (R+arrow alone),
 `roi.svg` (wordmark alone), `subvariant10.drawio` (editable, three cells).
 
-![logo subvariants 1-12](logoptions.png)
+![logo subvariants 1-12](/posts/logoptions/logoptions.png)
