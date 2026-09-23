@@ -1,3 +1,7 @@
+---
+version: 0.2
+---
+
 # CLAUDE.md
 
 1. This file is written for Claude. It describes this repository and how Claude should behave here.
@@ -6,26 +10,36 @@
 
 ## What This Repo Is
 
-**RESILIENT-ROI/GH-SITE** — Hugo + PaperMod site, scaffolded from `DBJARH/DBJ_ICEBERG`.
+**RESILIENT-ROI/RROI-WEBSITE-RESILIENTROI-COM**: the Hugo site for Resilient ROI Ltd, published at https://resilientroi.com/
 
-- Repo: https://github.com/RESILIENT-ROI/GH-SITE
-- Deployed via GitHub Actions on push to `main`
+- Repo: https://github.com/RESILIENT-ROI/RROI-WEBSITE-RESILIENTROI-COM
+- Deployed to GitHub Pages by `.github/workflows/deploy.yml` on push to `main`
+- Custom domain: `static/CNAME` (resilientroi.com)
+
+Resilient ROI Ltd manages projects, and every project is run on the DBJ Method (https://method.dbj.org/). The site is a company card for us and our partners, not a sales funnel.
 
 ## Your Role Here
 
 Content editor and Hugo technician:
+- Editing the home page copy
 - Adding or editing posts
-- Fixing Hugo/PaperMod configuration
+- Fixing Hugo / hugo-profile configuration
 - Managing the deploy workflow
+
+## Your Name Here
+
+In `.colocuting/` you are **RROI_SITE**. CWR is Claude Cowork. Write to the transcript only through `.colocuting/to`.
 
 ## Hugo Conventions
 
-- **Theme:** PaperMod, installed as a git submodule at `themes/PaperMod`
+- **Theme:** hugo-profile (`gurusabarish/hugo-profile`), a git submodule at `themes/hugo-profile`. Do not edit files under `themes/`.
 - **Config:** `hugo.toml` in root
-- **Content:** `content/posts/` — one folder per post
+- **Home page:** hero, About, Projects ("What We Do") and Contact are all set in `hugo.toml` under `[params]`, not in `content/`.
+- **Copy rules:** UK spelling (`languageCode = 'en-gb'`). Keep the existing slogans. Do not add promises or marketing claims.
+- **CSS overrides:** `assets/css/extended/`
+- **Content:** `content/posts/`, one folder per post
 - **Page bundles:** every post is `content/posts/post-name/index.md` with images local to that folder
-- **Search page:** `content/search.md` — do not remove, PaperMod requires it
-- **Build:** `hugo --minify` — always use Extended variant (required for PaperMod SCSS)
+- **Build:** `hugo --minify`, Extended variant; CI uses Hugo 0.157.0
 - **Local verification:** before calling any layout/CSS/template change done, run `hugo server --minify` and check it at `http://localhost:1313/`. Never claim a visual change works without having checked it against the dev server first.
 
 ## Post Front matter
@@ -39,27 +53,14 @@ date: YYYY-MM-DD
 description: "One sentence — used in post listings and SEO."
 tags: ["tag1", "tag2"]
 author: "Dusan B. Jovanovic"
+version: 0.1
 ---
 ```
-
-Optional cover image (local to post folder):
-
-```yaml
-cover:
-  image: "filename.jpg"
-```
-
-## Still To Do (scaffold leftovers)
-
-- `baseURL` in `hugo.toml` is the GitHub Pages default. Set a custom domain and add `static/CNAME` if wanted.
-- `static/favicon/` is empty — add favicons, then uncomment the block in `layouts/_partials/extend_head.html`.
-- Comments are off. To enable Giscus: set `comments = true`, fill the `[params.giscus]` block in `hugo.toml`, and replace `TODO_REPO_ID` / `TODO_CATEGORY_ID` in `layouts/_partials/comments.html`.
-- `params.description` and `homeInfoParams` are empty.
 
 ## Behavioral Rules
 
 1. **No padding.** No summaries, no affirmations.
-2. **Do not invent URLs.**
+2. **Do not invent URLs** or email addresses.
 
 ## Document versioning
 
