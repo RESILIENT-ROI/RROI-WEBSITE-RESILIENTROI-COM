@@ -13,7 +13,7 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
 
 [params]
   title = 'Resilient ROI'
-  description = 'Safe Driving at AI Speeds.'
+  description = 'AI Aligned Production Systems'
   favicon = '/favicon/favicon.ico'
   useBootstrapCDN = false
   animate = true
@@ -43,9 +43,9 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
 
   [params.hero]
     enable = true
-    intro = 'Governance over Chaos: Products at AI Speed'
+    intro = 'Governance over Chaos'
     title = 'Resilient ROI'
-    subtitle = 'Safety at AI Speeds'
+    subtitle = 'Surviving the AI Arena'
     content = '''
 We train the whole organisation to perform resiliently in the AI storm.\
 Work is measured by what it returns. AI or no AI.
@@ -61,7 +61,7 @@ Work is measured by what it returns. AI or no AI.
     enable = false
     title = 'The DBJ Method'
     content = """
-Every Resilient ROI project is run on the DBJ Method ([method.dbj.org](https://method.dbj.org/)). No project runs outside it.
+Every Resilient ROI managed project is run on the DBJ Method ([method.dbj.org](https://method.dbj.org/)). No project runs outside it.
 
 - **One shared vocabulary**: business, product and technology people use the same words for the same things. ([Taxonomy](https://method.dbj.org/taxonomy/index.html))
 - **Business declares, technology implements**: business says what the product must be; technology builds exactly that. ([Operating model](https://method.dbj.org/bpt/bpt_operating_model.html))
