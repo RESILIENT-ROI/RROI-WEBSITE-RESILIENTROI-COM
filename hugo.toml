@@ -58,7 +58,7 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
 
   [params.projects]
     enable = true
-    title = 'We Navigate. And More ...'
+    title = 'We Navigate'
     [[params.projects.items]]
       title = 'Enablement'
       content = 'Raising your crews maturity, from boarding to following the operating model. The result is a steady stream of AI-enabled products or services, all resilient, safe and compliant.'
