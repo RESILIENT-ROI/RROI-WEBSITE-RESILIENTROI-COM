@@ -3,6 +3,10 @@
     max-width: 100%;
 }
 
-#hero {
+#hero#hero {
     min-height: auto;
+}
+
+#hero .row {
+    align-items: center;
 }
