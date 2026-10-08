@@ -43,60 +43,43 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
 
   [params.hero]
     enable = true
-    intro = 'Governance over Chaos'
+    intro = ' '
     title = 'Resilient ROI'
-    subtitle = 'Surviving the AI Arena'
-    content = '''
-We train the whole organisation to perform resiliently in the AI storm.\
-Work is measured by what it returns. AI or no AI.
-'''
+    subtitle = 'In the AI Arena'
+    content = '''Work is measured by what it returns. We train the whole organisation to cruise at the AI speed.'''
     image = '/rroi-logo-version.png'
     [params.hero.button]
       enable = true
       name = 'What We Do'
       url = '#projects'
       newPage = false
-
-  [params.about]
-    enable = false
-    title = 'The DBJ Method'
-    content = """
-Every Resilient ROI managed project is run on the DBJ Method ([method.dbj.org](https://method.dbj.org/)). No project runs outside it.
-
-- **One shared vocabulary**: business, product and technology people use the same words for the same things. ([Taxonomy](https://method.dbj.org/taxonomy/index.html))
-- **Business declares, technology implements**: business says what the product must be; technology builds exactly that. ([Operating model](https://method.dbj.org/bpt/bpt_operating_model.html))
-- **Maturity is measured**: how well the organisation works, from level 0 to 5, before and after. ([Maturity model](https://method.dbj.org/cmm/index.html))
-- **Every decision is recorded**: work runs in short, repeatable cycles, and the reason for each decision is written down. ([The wheel](https://method.dbj.org/adm/index.html))
-- **Three quality factors**: every product is checked for scalability, resilience and compliance. ([3QF](https://dbj.org/3qf-the-key-to-roi/))
-- **Human-led**: AI speeds up the work; experienced people decide structure, data flow and boundaries.
-"""
-    [params.about.skills]
+    [params.hero.bottomImage]
       enable = false
 
   [params.projects]
     enable = true
-    title = 'What We Do'
+    title = 'We Navigate. And More ...'
     [[params.projects.items]]
-      title = 'Crew  Enablement'
-      content = 'We train your organisation to work as one crew, boarding the ship safely and following simple operating model. The result is a steady stream of AI-enabled products or services, that are resilient, safe and compliant.'
+      title = 'Enablement'
+      content = 'Raising your crews maturity, from boarding to following the operating model. The result is a steady stream of AI-enabled products or services, all resilient, safe and compliant.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/cmm/index.html'
     [[params.projects.items]]
-      title = 'Knowledge Preservation'
+      title = 'Preservation'
       content = 'Every mature organization, reaches the point when business value it encapsulates is more valuable than software it has built or uses. Your old systems hold years of business knowledge. We enable your teams to take it out and keep it safe before anything is replaced, so modernisation does not throw it away with the old code.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://iceberg.dbj.org/kb/technical-debt/'
     [[params.projects.items]]
-      title = 'Method building blocks'
-      content = 'For architecture practices developing a method of their own. Take only the parts of the DBJ Method you need, one chapter at a time, alongside with what you already do. We deliberately encapsulated TOGAF so that any specific role distant to architecture has benefits of the encapsulation.'
+      title = 'Building Blocks'
+      content = 'For architecture practices developing a method based on ours. Only the parts of the DBJ Method they need, one chapter at a time. We encapsulated TOGAF so that any specific role distant to architecture sees benefits, not confusion.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/'
     [[params.projects.items]]
-      title = 'Maturity Assessment'
-      content = 'Organization KPI is the sum of capability and maturity of its people. That is the key to enter the new operating model and mitigate the risks of the presence of the AI storm. That coldly decides where your organisation stands today, and what it takes to reach the level where AI-enabled product work can safely start. Output: findings and a roadmap.'
+      title = 'Assessment'
+      content = 'Organization KPI is the sum of capability and maturity of its people. The key to enter the new operating model and mitigate the risks at the presence of the AI storm. You coldly decides where your organisation stands today, and what it takes to reach the level where work at AI speeds can safely start. Output: findings and a roadmap.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/cmm/index.html'
@@ -104,7 +87,7 @@ Every Resilient ROI managed project is run on the DBJ Method ([method.dbj.org](h
   [params.contact]
     enable = true
     title = 'Contact'
-    content = 'Resilient ROI Ltd, London, UK. For projects and partnerships, write to us.'
+    content = 'AI does not wait. Write to us.'
     btnName = 'Email'
     btnLink = 'mailto:info@resilientroi.com'
 
@@ -115,5 +98,22 @@ Every Resilient ROI managed project is run on the DBJ Method ([method.dbj.org](h
       count = 3
       title = 'Recent Posts'
 
+  [params.about]
+    enable = false
+    title = 'We Navigate'
+    content = """
+The [DBJ Method](https://method.dbj.org/) is not the book of magic.
+
+- **One shared vocabulary**: business, product and technology people speak one language. ([Taxonomy](https://method.dbj.org/taxonomy/index.html))
+- **Business declares, technology implements**: Products teams is balancing the race. Business initiates ; technology never surprises. ([Operating model](https://method.dbj.org/bpt/bpt_operating_model.html))
+- **Maturity is measured**: Achieved and maintained, before and after the delivery. ([Maturity model](https://method.dbj.org/cmm/index.html))
+- **Every decision is recorded**: No ceremony. Short, repeatable cycles, and the reason for each decision. ([The wheel](https://method.dbj.org/adm/index.html))
+- **Three quality factors**: Scalability, resilience and compliance. ([3QF](https://dbj.org/3qf-the-key-to-roi/))
+- **Human-led**: Architecture decides the structure, flow and boundaries. AI speeds up the delivery.
+"""
+    [params.about.skills]
+      enable = true
+      content='With us, no project floats outside the [BPT](https://method.dbj.org/bpt/index.html) loop.'
+
   [params.terms]
-    copyright = 'All rights reserved.'
+    copyright = 'All rights reserved. Resilient ROI Ltd, London, UK.'
