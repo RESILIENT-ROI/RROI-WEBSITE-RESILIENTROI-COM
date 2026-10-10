@@ -79,10 +79,13 @@ copyright = '&copy; Resilient ROI Ltd. | London, UK'
         link = 'https://method.dbj.org/'
     [[params.projects.items]]
       title = 'Assessment'
-      content = 'Organization KPI is the sum of capability and maturity of its people. The key to enter the new operating model and mitigate the risks at the presence of the AI storm. You coldly decides where your organisation stands today, and what it takes to reach the level where work at AI speeds can safely start. Output: findings and a roadmap.'
+      content = 'Organizations Key Performance Indicator is the sum of capabilities and maturities of its people. That is the key, for adopters, to enter the new operating model and mitigate the risks at the presence of the AI storm. They learn to decide where their organisation stands today, and what it takes to reach the organization level, where work at AI speeds can safely start. The ROI follows.'
       [params.projects.items.featured]
         name = 'Read more'
         link = 'https://method.dbj.org/cmm/index.html'
+    [[params.projects.items]]
+      title = 'Client Feedback'
+      content = 'Most customers suffer the technical debt. They quickly spot where Resilient ROI earn their money. Not by demanding poor engineers clear every debt first, but by telling business leaders which debts they can live with, and for how long, which one kills the AI investment, and what it will actually cost to service the rest of the company landscape. — Dusan Jovanovic, Founder'
 
   [params.contact]
     enable = true
